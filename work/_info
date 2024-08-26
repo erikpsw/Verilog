@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 de:/programming/Verilog
+vDigitron_TimeDisplay_module
+!s110 1724687680
+!i10b 1
+!s100 aK[H:S0QXbMI7z[EAjLZF2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVg39I^0eRS3iWiXJV=Eed3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1724687680
+8e:\programming\Verilog\display\Digitron_TimeDisplay_module.v
+Fe:\programming\Verilog\display\Digitron_TimeDisplay_module.v
+!i122 142
+L0 1 67
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1724687680.000000
+!s107 e:\programming\Verilog\display\Digitron_TimeDisplay_module.v|
+!s90 -nologo|-work|E:\programming\Verilog\work|e:\programming\Verilog\display\Digitron_TimeDisplay_module.v|
+!i113 1
+Z4 o-nologo -work {E:\programming\Verilog\work}
+Z5 tCvgOpt 0
+n@digitron_@time@display_module
+vkey_filter
+!s110 1724680315
+!i10b 1
+!s100 ]abfPOl18O?lK?EAOd`d<0
+R1
+IT4m0Im4KeR2JdkoFdbDz[3
+R2
+R0
+w1724680314
+8e:\programming\Verilog\display\key_filter.v
+Fe:\programming\Verilog\display\key_filter.v
+!i122 47
+L0 1 41
+R3
+r1
+!s85 0
+31
+!s108 1724680315.000000
+!s107 e:\programming\Verilog\display\key_filter.v|
+!s90 -nologo|-work|E:\programming\Verilog\work|e:\programming\Verilog\display\key_filter.v|
+!i113 1
+R4
+R5
+vkeyboard_instance
+!s110 1724689600
+!i10b 1
+!s100 K;kdB^RS=[kcm3Vl9an?z0
+R1
+I1<N5X9X7>=LJO7gKKN_Jm1
+R2
+R0
+w1724689600
+8e:\programming\Verilog\display\keyboard_instance.v
+Fe:\programming\Verilog\display\keyboard_instance.v
+!i122 180
+L0 1 54
+R3
+r1
+!s85 0
+31
+!s108 1724689600.000000
+!s107 e:\programming\Verilog\display\keyboard_instance.v|
+!s90 -nologo|-work|E:\programming\Verilog\work|e:\programming\Verilog\display\keyboard_instance.v|
+!i113 1
+R4
+R5
+vkeyboard_scan
+!s110 1724686886
+!i10b 1
+!s100 L[0C=OKlk@YHn7M9FQNno0
+R1
+I[K7bk>nekJ]]RCB;ed@BP3
+R2
+R0
+w1724655429
+8e:\programming\Verilog\_9_keyboard\_9_keyboard\src\keyboard_scan.v
+Fe:\programming\Verilog\_9_keyboard\_9_keyboard\src\keyboard_scan.v
+!i122 135
+L0 1 39
+R3
+r1
+!s85 0
+31
+!s108 1724686886.000000
+!s107 e:\programming\Verilog\_9_keyboard\_9_keyboard\src\keyboard_scan.v|
+!s90 -nologo|-work|E:\programming\Verilog\work|e:\programming\Verilog\_9_keyboard\_9_keyboard\src\keyboard_scan.v|
+!i113 1
+R4
+R5
+vonehot2binary
+!s110 1724689593
+!i10b 1
+!s100 NzC:d^Y]?k^51O2eL7mz@2
+R1
+IJiB;;NOMS<]WYWk2<Yn7N3
+R2
+R0
+w1724689592
+8e:\programming\Verilog\display\onehot2binary.v
+Fe:\programming\Verilog\display\onehot2binary.v
+!i122 179
+L0 1 50
+R3
+r1
+!s85 0
+31
+!s108 1724689592.000000
+!s107 e:\programming\Verilog\display\onehot2binary.v|
+!s90 -nologo|-work|E:\programming\Verilog\work|e:\programming\Verilog\display\onehot2binary.v|
+!i113 1
+R4
+R5

@@ -1,0 +1,38 @@
+standard
+***Report Model: keyboard_instance Device: EG4S20BG256***
+
+IO Statistics
+#IO                        22
+  #input                    6
+  #output                  16
+  #inout                    0
+
+Gate Statistics
+#Basic gates              324
+  #and                    115
+  #nand                     0
+  #or                      46
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                     54
+  #bufif1                   0
+  #MX21                     0
+  #FADD                     0
+  #DFF                    109
+  #LATCH                    0
+#MACRO_ADD                  2
+#MACRO_EQ                   6
+#MACRO_MUX                 15
+
+Report Hierarchy Area:
++--------------------------------------------------------------+
+|Instance |Module                      |gates  |seq    |macros |
++--------------------------------------------------------------+
+|top      |keyboard_instance           |215    |109    |8      |
+|  U1     |keyboard_scan               |7      |53     |6      |
+|  U2     |key_filter                  |48     |52     |2      |
+|  U3     |onehot2binary               |157    |4      |0      |
+|  U5     |Digitron_TimeDisplay_module |0      |0      |0      |
++--------------------------------------------------------------+

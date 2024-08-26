@@ -1,0 +1,3 @@
+set_pin_assignment	{ in }	{ LOCATION = A9; }
+set_pin_assignment	{ out }	{ LOCATION = B14; }
+
