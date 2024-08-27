@@ -1,0 +1,83 @@
+standard
+***Report Model: keyboard_instance Device: EG4S20BG256***
+
+IO Statistics
+#IO                        23
+  #input                    6
+  #output                  17
+  #inout                    0
+
+Utilization Statistics
+#lut                      205   out of  19600    1.05%
+#reg                      146   out of  19600    0.74%
+#le                       232
+  #lut only                86   out of    232   37.07%
+  #reg only                27   out of    232   11.64%
+  #lut&reg                119   out of    232   51.29%
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       23   out of    188   12.23%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        0   out of      4    0.00%
+#gclk                       2   out of     16   12.50%
+
+Clock Resource Statistics
+Index     ClockNet         Type               DriverType         Driver                      Fanout
+#1        clk_50M_dup_1    GCLK               io                 clk_50M_syn_2.di            71
+#2        U1/scan_clk      GCLK               lslice             U1/scan_clk_reg_syn_9.q1    10
+
+
+Detailed IO Report
+
+        Name           Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+        RSTn             INPUT         A9        LVCMOS33          N/A          PULLUP      NONE    
+       clk_50M           INPUT         R7        LVCMOS33          N/A          PULLUP      NONE    
+       col[3]            INPUT        F10        LVCMOS33          N/A          PULLUP      NONE    
+       col[2]            INPUT        C11        LVCMOS33          N/A          PULLUP      NONE    
+       col[1]            INPUT        D11        LVCMOS33          N/A          PULLUP      NONE    
+       col[0]            INPUT        E11        LVCMOS33          N/A          PULLUP      NONE    
+  DigitronCS_Out[3]     OUTPUT         A3        LVCMOS33           8            NONE       NONE    
+  DigitronCS_Out[2]     OUTPUT         A5        LVCMOS33           8            NONE       NONE    
+  DigitronCS_Out[1]     OUTPUT         B6        LVCMOS33           8            NONE       NONE    
+  DigitronCS_Out[0]     OUTPUT         C9        LVCMOS33           8            NONE       NONE    
+   Digitron_Out[7]      OUTPUT         C8        LVCMOS33           8            NONE       NONE    
+   Digitron_Out[6]      OUTPUT         A8        LVCMOS33           8            NONE       NONE    
+   Digitron_Out[5]      OUTPUT         B5        LVCMOS33           8            NONE       NONE    
+   Digitron_Out[4]      OUTPUT         A7        LVCMOS33           8            NONE       NONE    
+   Digitron_Out[3]      OUTPUT         E8        LVCMOS33           8            NONE       NONE    
+   Digitron_Out[2]      OUTPUT         B8        LVCMOS33           8            NONE       NONE    
+   Digitron_Out[1]      OUTPUT         A6        LVCMOS33           8            NONE       NONE    
+   Digitron_Out[0]      OUTPUT         A4        LVCMOS33           8            NONE       NONE    
+        light           OUTPUT        B14        LVCMOS33           8            NONE       NONE    
+       row[3]           OUTPUT         D9        LVCMOS33           8            NONE       NONE    
+       row[2]           OUTPUT         F9        LVCMOS33           8            NONE       NONE    
+       row[1]           OUTPUT        C10        LVCMOS33           8            NONE       NONE    
+       row[0]           OUTPUT        E10        LVCMOS33           8            NONE       NONE    
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------------------------+
+|Instance |Module                      |le     |lut     |ripple  |seq     |bram    |dsp     |
++-------------------------------------------------------------------------------------------+
+|top      |keyboard_instance           |232    |180     |25      |146     |0       |0       |
+|  U1     |keyboard_scan               |69     |47      |9       |53      |0       |0       |
+|  U2     |key_filter                  |59     |39      |6       |49      |0       |0       |
+|  U3     |onehot2binary               |63     |63      |0       |26      |0       |0       |
+|  U5     |Digitron_TimeDisplay_module |36     |26      |10      |18      |0       |0       |
++-------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       150   
+    #2         2        94   
+    #3         3        23   
+    #4         4        24   
+    #5        5-10      24   
+    #6       11-50      5    
+  Average     2.37           

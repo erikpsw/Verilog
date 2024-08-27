@@ -1,0 +1,14 @@
+eagle_s20
+13 0 0 0 0 0 0
+infinity infinity keyboard_instance eagle_s20 EG4S20BG256 Detail NA 9 0
+
+Timing group statistics: 
+	Clock constraints: 
+	  No constraint path
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 2 clock net(s): 
+	U1/scan_clk_syn_4
+	clk_50M_dup_1
+
