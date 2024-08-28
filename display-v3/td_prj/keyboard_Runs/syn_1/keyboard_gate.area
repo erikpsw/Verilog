@@ -1,0 +1,43 @@
+standard
+***Report Model: keyboard_instance Device: EG4S20BG256***
+
+IO Statistics
+#IO                        31
+  #input                    6
+  #output                  25
+  #inout                    0
+
+LUT Statistics
+#Total_luts               875
+  #lut4                   384
+  #lut5                    91
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b             400
+
+Utilization Statistics
+#lut                      875   out of  19600    4.46%
+#reg                      292   out of  19600    1.49%
+#le                         0
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       31   out of    188   16.49%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        0   out of      4    0.00%
+
+Report Hierarchy Area:
++-----------------------------------------------------------------------------------+
+|Instance |Module                      |lut     |ripple  |seq     |bram    |dsp     |
++-----------------------------------------------------------------------------------+
+|top      |keyboard_instance           |475     |400     |292     |0       |0       |
+|  U1     |keyboard_scan               |41      |33      |53      |0       |0       |
+|  U2     |key_filter                  |14      |21      |52      |0       |0       |
+|  U3     |onehot2binary               |371     |294     |126     |0       |0       |
+|  U5     |Digitron_TimeDisplay_module |20      |19      |16      |0       |0       |
+|  U6     |Led_effect                  |26      |33      |45      |0       |0       |
++-----------------------------------------------------------------------------------+
